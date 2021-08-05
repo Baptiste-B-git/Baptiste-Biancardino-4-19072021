@@ -44,10 +44,6 @@ a:hover {
     padding-right: 0;
 }
 
-.bloc-lg {
-    padding: 100px 50px;
-}
-
 .bloc-md {
     padding: 50px;
 }
@@ -651,11 +647,27 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #313030!important;
+}
+.tc-black{
+    font-family: "helvetica";
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF!important;
+}
+.tc-image{
+    color: #FFFFFF!important;
+    font-size: 24px;
 }
 
 .text-center {
     text-align: center;
+}
+
+.hero-bloc-text{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #FFFFFF!important;
 }
 
 .container {
@@ -666,6 +678,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    
 }
 
 .hero-bloc-text-sub {
@@ -693,6 +706,10 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+}
+.grey-background {
+    background-color: #3f3e3e;
+    padding: 40px 40px 40px 40px;
 }
 
 .h1 {
@@ -723,7 +740,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #313030!important;
 }
 
 .med-width-whitespace {
@@ -733,7 +750,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #313030!important;
 }
 
 h4 {
@@ -781,21 +798,22 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #a42a42;
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #a42a42!important;
+    font-size: 30px;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #a42a42;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #F9D329!important;
+    color: #313030!important;
 }
 
 .ltc-white {
@@ -803,15 +821,15 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #a42a42!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #F9D329!important;
 }
 
 .icon-dark-slate-blue {
