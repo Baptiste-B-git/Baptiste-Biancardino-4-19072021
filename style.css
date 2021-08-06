@@ -691,6 +691,10 @@ a {
 .text-center {
     text-align: center;
 }
+.text-footer{
+    text-align: center;
+    color: #FFFFFF!important;
+}
 
 .hero-bloc-text{
     font-family: "helvetica";
@@ -771,7 +775,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #D0D0D0!important;
+    color: #313030!important;
 }
 
 .med-width-whitespace {
