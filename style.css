@@ -32,7 +32,6 @@ a:hover {
     padding: 0 10px;
 }
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     -webkit-background-size: cover;
@@ -40,6 +39,7 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    padding: 0 50px;
 }
 
 .bloc .container {
@@ -677,6 +677,9 @@ a {
     font-weight: 400;
     color: #313030!important;
 }
+.element-style{
+    width: 100%;
+}
 .tc-black{
     font-family: "helvetica";
     font-weight: 400;
@@ -843,6 +846,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #a42a42;
     color: #FFFFFF!important;
+    border-radius: 15px;
 }
 
 .btn-atomic-tangerine:hover {
