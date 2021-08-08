@@ -846,7 +846,8 @@ h4 {
 .btn-atomic-tangerine {
     background: #a42a42;
     color: #FFFFFF!important;
-    border-radius: 15px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .btn-atomic-tangerine:hover {
